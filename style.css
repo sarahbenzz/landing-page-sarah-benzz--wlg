@@ -1,0 +1,392 @@
+/* Write some CSS below */
+
+body {
+font-family: "Roboto", sans-serif; 
+font-size: 18px;
+margin: 0;
+padding: 0;
+background-color: #37144E;
+}
+
+h1 {
+font-size: 57px
+}
+
+h2 {
+font-size: 35px
+}
+
+h3 {
+font-size: 25px
+}
+
+h1, h2, h3 {
+font-family: "Space Grotesk", sans-serif;
+}
+
+.banner {
+    background-image: url(images/bannerwlg.png);
+    background-position: center;
+    background-size: cover;
+    margin: 0px;
+    padding: 150px 0;
+    color: #04FC60;
+    text-align: center;
+}
+
+.banner h1 h2 {
+margin: 20px
+}
+
+.banner h2 {
+    margin-bottom: 20px;
+}
+
+.section-logo {
+    background-color: #37144E;
+}
+
+#logo {
+    height: 200px;
+    width: 300px;
+    object-fit: cover;
+    margin: auto;
+    display: block;
+}
+
+#btn-resa {
+    background-color: #04FC60;
+    color: #37144E;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#btn-resa:hover {
+    background-color: #04FC60;
+    color: white;
+}
+
+.banner h2 {
+    margin-bottom: 40px;
+}
+
+.section-white {
+    background-color: #37144E;
+    color: #37144E;
+    margin: 50px 0;
+}
+
+.container {
+    margin: 20px auto;
+    width: 900px;
+}
+
+.container h2 {
+    color: #04FC60;
+    text-align: center;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
+    color: #04FC60;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.cards h3 {
+    text-align: center;
+}
+
+.card-white {
+    background-color: #04FC60;
+    color: #37144E;
+    box-shadow: 0 0 10px rgb(16, 15, 15);
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.card-white img {
+    border-radius: 4%;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+#card-artist p {
+    text-align: center;
+}
+
+#burnaboy {
+    background-image: url(images/burnaboy.webp);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+    margin: 10px 0;
+    position: relative;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#friday {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, .5);
+    opacity: 0;
+    transition: 0.3s;
+}
+
+#friday p {
+   color: #04FC60;
+   margin: 90px;
+   font-weight: bold;
+}
+
+#burnaboy:hover #friday {
+    opacity: 1;
+}
+
+#hamza {
+    background-image: url(images/hamza.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+    margin: 10px 0;
+    position: relative;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#hamza:hover #friday {
+    opacity: 1;
+}
+
+
+#shay {
+    background-image: url(images/shay.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+    margin: 10px 0;
+    position: relative;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#shay:hover #friday {
+    opacity: 1;
+}
+
+#saturday {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, .5);
+    opacity: 0;
+    transition: 0.3s;
+}
+
+#saturday p {
+   color: #04FC60;
+   margin: 90px;
+   font-weight: bold;
+}
+
+#kaytranada {
+    background-image: url(images/kaytranada.webp);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+    margin: 10px 0;
+    position: relative;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#kaytranada:hover #saturday {
+    opacity: 1;
+}
+
+#josman {
+    background-image: url(images/josman.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+    margin: 10px 0;
+    position: relative;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#josman:hover #saturday {
+    opacity: 1;
+}
+
+#lala {
+    background-image: url(images/lala.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+    margin: 10px 0;
+    position: relative;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#lala:hover #saturday {
+    opacity: 1;
+}
+
+#sunday {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, .5);
+    opacity: 0;
+    transition: 0.3s;
+}
+
+#sunday p {
+   color: #04FC60;
+   margin: 90px;
+   font-weight: bold;
+}
+
+#troyesivan {
+    background-image: url(images/troyesivan.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+    margin: 10px 0;
+    position: relative;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#troyesivan:hover #sunday {
+    opacity: 1;
+}
+
+#luidji {
+    background-image: url(images/luidji.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+    margin: 10px 0;
+    position: relative;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#luidji:hover #sunday {
+    opacity: 1;
+}
+
+#tif {
+    background-image: url(images/tif.webp);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+    margin: 10px 0;
+    position: relative;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#tif:hover #sunday {
+    opacity: 1;
+}
+
+#adnfest {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    color: #04FC60;
+    text-align: left;
+}
+
+.adnfest h3 {
+    text-align: center;
+}
+
+.footer {
+    background-color : #04FC60;;
+    color: #37144E;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 0
+}
+
+.footer li {
+    display: inline;
+}
+
+.footer li i {
+    font-size: 40px;
+    color:  #37144E;
+    text-align: right;
+    margin: right;
+    padding: auto;
+}
+
+.footer li i:hover {
+    color: rgb(197, 136, 210);
+}
+
+.legalmention {
+    font-size: 10px;
+    padding: 10px;
+    text-align: left;
+}
+
+#mentiondeveloppe {
+    font-size: 10px;
+    padding: 20px;
+    text-align: left;
+ }
+
+@media (max-width: 950px) {
+    .cards {
+        grid-template-columns: 1fr ;
+    }
+
+     .container{
+        width: 500px;
+    }
+
+    #adnfest {
+        width: 500px;
+        grid-template-columns: 1fr;
+    }
+}
+
+.video .container {
+    text-align: center;
+    padding: 30px;
+}
